@@ -2,40 +2,24 @@
   "posts": [
     {
       "title": "Diani,Kenya",
-      "img": "https://www.safaridesire.com/wp-content/uploads/2020/08/Diani-Beach-Kenya-Stretch-1024x596.jpg",
+      "image": "https://www.safaridesire.com/wp-content/uploads/2020/08/Diani-Beach-Kenya-Stretch-1024x596.jpg",
       "description": "Diani,extends along the Indian Ocean coast in Kenya and it is a spectacular location for a beach holiday in Kenya. It has a magnificent background of forests with the sounds of various animals serenading you that will really make a perfect destination.                        ",
-      "Reviews": "Diani is the absolute place to be in Coast,Kenya",
+      "reviews": "Diani is the absolute best place to be in Coast,Kenya",
       "id": "1"
     },
     {
       "title": "Santorini,Greece",
-      "img": "https://a.cdn-hotels.com/gdcs/production109/d262/bd38cd57-bbd8-441a-80b6-6465c035d8db.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+      "image": "https://a.cdn-hotels.com/gdcs/production109/d262/bd38cd57-bbd8-441a-80b6-6465c035d8db.jpg?impolicy=fcrop&w=800&h=533&q=medium",
       "description": "Santorini is a small island located in the Cyclades group of islands in Greece. It is famous for its stunning natural beauty, including its white-washed buildings, blue-domed churches, and dramatic cliffs.                        ",
-      "Reviews": "This place was the real definition of aesthetic",
+      "reviews": "You have not lived life if you haven't visited Santorini.",
       "id": "2"
     },
     {
-      "id": "3",
       "title": "Paris,France",
-      "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg",
-      "description": " Diani,extends along the Indian Ocean coast in Kenya and it is a spectacular location for a beach holiday in Kenya. It has a magnificent background of forests with the sounds of various animals serenading you that will really make a perfect destination\n\n",
-      "Reviews": "Pariiiiiiiiiiiiiiiiiiiisssssssssss."
-    },
-    {
-      "review": "Nice place",
-      "id": "aKlW7hj"
-    },
-    {
-      "review": "Nice place",
-      "id": "hvg2gUL"
-    },
-    {
-      "review": "Nice place",
-      "id": "yNs1Ptg"
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg",
+      "description": "Paris offers something for everyone. It boasts rich culture and art, both in museums and galleries as well as on streets and in theatres. Get captivated by rich palaces and romantic gardens. Explore the wide avenues and narrow cobbled streets where a new gem waits for travellers around every corner. While sightseeing, dont forget to enjoy life or, as the French would say: Joie de vivre. ",
+      "reviews": "The Eiffel Tower has views to die for.",
+      "id": "3"
     }
-  ],
-  "comments": [],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
