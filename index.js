@@ -66,7 +66,7 @@ function addBlogPost() {
     };
 
     // Send POST request to add new blog post
-    fetch("https://phase-1-project-eb71.onrender.com0/posts/", {
+    fetch("https://phase-1-project-eb71.onrender.com/posts/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
