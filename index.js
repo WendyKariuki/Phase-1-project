@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("http://localhost:3000/posts/")
+  fetch("https://phase-1-project-eb71.onrender.com/posts/")
     .then((response) => response.json())
 
     .then((data) => {
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // function to delete Blog post
 function deletePost(id) {
-  fetch(`http://localhost:3000/posts/${id}`, {
+  fetch(`https://phase-1-project-eb71.onrender.com/posts/${id}`, {
     method: "DELETE",
   })
     .then((response) => response.json())
@@ -66,7 +66,7 @@ function addBlogPost() {
     };
 
     // Send POST request to add new blog post
-    fetch("http://localhost:3000/posts/", {
+    fetch("https://phase-1-project-eb71.onrender.com0/posts/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -91,7 +91,7 @@ addBlogPost();
 // function to update post
 const editPost = (id) => {
   console.log(id);
-  fetch(`http://localhost:3000/posts/${id}`)
+  fetch(`https://phase-1-project-eb71.onrender.com/posts/${id}`)
     .then((data) => data.json())
     .then((post) => {
       const update_container = document.getElementById("update_container");
@@ -126,7 +126,7 @@ function update_post(id) {
   const description = document.getElementById("description_update").value;
   const reviews = document.getElementById("reviews_update").value;
 
-  fetch(`http://localhost:3000/posts/${id}`, {
+  fetch(`https://phase-1-project-eb71.onrender.com/posts/${id}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
