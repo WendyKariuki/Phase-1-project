@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .catch((error) => {
       console.error("Error fetching destinations:", error);
     });
-
+// function to display post blogs
   const displayPosts = (posts) => {
     const cardsContainer = document.getElementById("cardsContainer");
     for (const post of posts) {
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <img src="${post.image}" class="w-full" alt="loading..." />
                 <div class="flex justify-between my-3">
                     <i onclick="deletePost('${post.id}')" class="fa fa-trash text-3xl" aria-hidden="true"></i>
-                    <i onclick="editPost(${post.id})" class="fa fa-pencil-square-o text-3xl" aria-hidden="true"></i>
+                    <i onclick="editPost('${post.id}')" class="fa fa-pencil-square-o text-3xl" aria-hidden="true"></i>
                 </div>
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">${post.title}</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400">${post.description}</p>
@@ -86,11 +86,11 @@ function addBlogPost() {
       });
   });
 }
-
-// Call the function to add a new blog post
 addBlogPost();
 
+// function to update post
 const editPost = (id) => {
+  console.log(id);
   fetch(`http://localhost:3000/posts/${id}`)
     .then((data) => data.json())
     .then((post) => {
@@ -121,7 +121,6 @@ const editPost = (id) => {
 };
 
 function update_post(id) {
-  console.log(id,'kwnfklwnfkwnmfpkw----');
   const title = document.getElementById("title_update").value;
   const image = document.getElementById("image_link").value;
   const description = document.getElementById("description_update").value;
